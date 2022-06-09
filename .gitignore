@@ -106,3 +106,6 @@ dist
 /app2/package-lock.json
 /container/package-lock.json
 /.idea/workspace.xml
+/.idea/modules.xml
+/.idea/React-Typescript-Module-Federation.iml
+/.idea/vcs.xml
