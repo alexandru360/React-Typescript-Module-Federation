@@ -1,0 +1,24 @@
+{
+  "name": "react-typescript-module-federation",
+  "version": "1.0.0",
+  "description": "MFE with React Typescript",
+  "main": "index.js",
+  "private": true,
+  "workspaces": ["app1", "app2", "container"],
+  "scripts": {
+    "start:app1": "cd app1 && npm start",
+    "start:app2": "cd app2 && npm start",
+    "start:main": "cd container && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandru360/React-Typescript-Module-Federation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexandru360/React-Typescript-Module-Federation/issues"
+  },
+  "homepage": "https://github.com/alexandru360/React-Typescript-Module-Federation#readme"
+}
